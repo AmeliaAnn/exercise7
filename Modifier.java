@@ -3,8 +3,8 @@ package exercise7;
 public final class Modifier {
 
 
-      public static final int ONE = 1;
-      public static final int TWO = 2;
-      public static final int THREE = 3;
+      public static final int X = 1;
+      public static final int Y = 2;
+      public static final int Z = 3;
       
       }
