@@ -9,16 +9,10 @@ public class Main {
         System.out.print("Input number: ");
         int number = in.nextInt();
         
-         if (number == Modifier.X)
+         if (number == Modifier.X || number == Modifier.Y || number == Modifier.Z)
              System.out.print("Данное значение имеется в константах");
-         if (number == Modifier.Y)
-            System.out.print("Данное значение имеется в константах");
-         if (number == Modifier.Z)
-             System.out.print("Данное значение имеется в константах");
-        if (number > 3)
+        else
              System.out.print("Такой константы нет!" );
          }
-
-
 
     }
